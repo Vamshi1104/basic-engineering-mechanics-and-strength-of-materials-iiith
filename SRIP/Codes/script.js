@@ -229,6 +229,7 @@ var pat;
 	function main()
 	{
 		lowerPiston();
+		upperPiston();
 	}
 	
 	function upperPiston()
@@ -318,7 +319,6 @@ var pat;
 		else
 		{
 			cancelAnimationFrame(lowerPistonid);
-			upperPiston();
 		}
 		
 	}
